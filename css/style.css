@@ -1,0 +1,222 @@
+
+/* HEADER */
+.section-header {
+	display: flex;
+	justify-content: center;
+	height:220px;
+}
+h2.culture-news {
+	font-family: Playfair Display;
+	font-weight: 900;
+	font-size: 35px;
+	line-height: 47px;
+	letter-spacing: 1px;
+	padding-top: 25px;
+	text-align: center;
+}
+.nav-list {
+	display:flex;
+	list-style: none;
+		/* ШРИФТ НАВА */
+	font-family: Roboto;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 2px;
+}
+.nav-list li a {
+	text-decoration: none;
+	color: black;
+}
+.nav-list li a:hover {
+	color:#FF7931;
+	transition: 0.5s;
+}
+.nav-list li {
+	margin: 5px 25px;
+}
+/* /HEADER */
+
+ /* MAIN IMG */
+.section-main-img {
+	color:white;
+	background-image: url(../img/fone.png);
+	background-size: cover;
+	height:464px;
+}
+.section-main-img .section-inner {
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	padding-top:46px;
+	padding-bottom:48px;
+	color:white;
+	height:370px;
+}
+.section-main-img .title p {
+	font-family: Roboto;
+	font-size: 72px;
+	line-height: 84px;
+	letter-spacing: 2px;
+	margin-top:25px;
+}
+.section-main-img .subtitle {
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 21px;
+	margin-top:55px;
+	text-align: center;
+}
+  /* / MAIN IMG */
+
+ /* reviews */
+.section-reviews .section-inner {
+	display:flex;
+	flex-direction:column;
+	height:463px;
+	align-items:center;
+}
+.reviews {
+	display:flex;
+}	
+.reviews a {
+	font-family: Playfair Display;
+	font-weight: 900;
+	font-size: 23px;
+	text-decoration:none;
+	color:black;
+}
+.reviews a:hover {
+	color:#FF7931;
+	transition: 0.5s;
+}
+.reviews p {
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 150%;
+	margin-top:10px;
+}
+.reviews .segment {
+	margin:0 15px;
+}
+.reviews img {
+	margin-bottom:15px;
+}
+.title-reviews {
+	font-family: Roboto;
+	font-size: 17px;
+	margin-top:40px;
+}
+ /* /reviews */
+
+/* theater-tickets */
+.section-theater-tickets {
+		background-color:#F7F7F7;
+		height:556px;
+	}
+.section-theater-tickets .section-inner {
+	position:relative;
+	top:-70px;
+	background-color:white;
+	border-radius:50%;
+	height:707px;
+	width: 707px;
+	margin:0 auto;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title-theater {
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 17px;
+	letter-spacing: 2px;
+}
+.ticket-block {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.ticket-block h4 {
+	font-family: Playfair Display;
+	font-weight: 900;
+	font-size: 23px;
+	margin-top:40px;
+	margin-bottom:5px;
+}
+.ticket-block p {
+	font-family: Roboto;
+	font-size: 14px;
+}
+.button {
+	display: flex;
+	width:170px;
+	height:47px;
+	border:none;
+	background-color:#FF7931;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+
+	font-family: Roboto;
+	font-size: 12px;
+	letter-spacing: 2px;
+	color:white;
+}
+.button img {
+	margin-left: 10px;
+}
+/* /theater-tickets */
+
+/* footer */
+.section-footer {
+	height:295px;
+	margin-top:81px;
+	background-color: #575757;
+	color: white;
+}
+.section-footer .section-inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.section-footer .section-inner h2 {
+	margin: 0 auto 10px;
+}
+.section-footer .section-inner nav {
+	margin-bottom: 20px;
+}
+.section-footer .nav-list {
+	width: 1170px;	
+	padding: 0;
+	border-bottom: 1px solid white;
+}
+.section-footer .nav-list ul li:first-child {
+	margin-left: 0;
+}
+.section-footer .nav-list a {
+	color: white;
+}
+.section-footer .icon-block {
+	display: flex;
+	width: 169px;
+	justify-content: space-between;
+}
+.section-footer .icon-block .segment {
+	height: 47px;
+	width: 47px;
+	text-align: center;
+	padding-top: 12px;	
+	margin: 14px 0;
+	box-sizing: border-box;
+	background-color: white;
+}
+.section-footer .nav-list li:first-child {
+	margin-left: 0;
+	margin-bottom: 46px;
+}
+/* footer */
